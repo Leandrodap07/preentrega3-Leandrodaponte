@@ -1,0 +1,75 @@
+.body{
+	background: url("../img/fondo\ web1.jpeg");
+	background-size: 100%;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.collapse {
+	ul{ 
+		li{ 
+			a{
+				text-transform: uppercase;				
+				font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				font-size: 20px; 
+				color: rgb(7, 1, 59);
+				margin: 7px;
+			}
+		}
+	}
+}
+
+.container-fluid{
+	 
+	p{
+	background:url(../img/fondomarcia.jpg);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 90px;
+	text-transform:initial;
+    color:hwb(0 0% 100%);
+	margin-top: 20px;
+
+}
+}
+.container h3{
+	background-color: rgb(150, 75, 75);
+	color: hsl(0, 0%, 100%);
+	margin: 10px;
+	padding: 10px;
+}
+.container p{
+	margin: 20px;
+	padding: 20px;
+	color: hsl(0, 0%, 0%);
+
+}
+ .greeting h1{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 40px;
+	text-transform:initial;
+	margin-top: 30px;
+	color: black;
+	text-decoration: overline;
+	text-shadow: 1cap;
+ }
+
+ .redes {
+ 		em{
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		font-size:medium;
+		text-decoration: none;
+		margin-top: 15px;
+		margin-right: 5px;
+		padding-top: 15px;
+		}
+		a{
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			font-size:large;
+			text-decoration: none;
+			color:black;
+			margin-top: 15px;
+			padding-top: 15px;
+			padding-right: 25px;
+		}
+ }
+@import "text";
+@import "video";
